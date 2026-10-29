@@ -86,6 +86,7 @@ docs/
 - [Database](database.md)
 - [Progress](progress.md)
 - [Fix records](fixes/README.md)
+- [Windows + SQL Server Express setup](setup/windows-sql-express.md)
 - Service documentation: [`docs/services/`](services/)
 
 ## Scope
