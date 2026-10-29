@@ -1,0 +1,67 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+publish/
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# .NET tooling
+.dotnet/
+.nuget/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+.vs/
+.vscode/
+.idea/
+
+# Test and coverage output
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+*.trx
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+appsettings.Development.local.json
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.snk
+
+# Local databases and SQL artifacts
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
